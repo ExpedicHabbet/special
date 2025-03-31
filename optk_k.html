@@ -9,6 +9,10 @@
         html {
             margin: 0px;
             padding: 0px;
+            background-image: url("img/bg.png");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
         }
         body {
             margin: 0px;
@@ -32,8 +36,8 @@
             justify-content: center;
             align-items: center;
             width: 100%;
-            margin: 10px 0;
-            background-color: #f76b20;
+            /* margin: 10px 0; */
+            background-color: #f76b20af;
         }
         .return {
             background-image: url('img/return.png');
@@ -46,8 +50,8 @@
 </head>
 <body>
     <header>
-        <h1>OpenTaiko Karting</h1>
-        <h3>A new entry in the OpenTaiko franchise!</h3>
+        <img src="img/logo.png" alt="OpenTaiko Karting" height="400px"/>
+        <h3>A brand new entry in the OpenTaiko franchise!</h3>
     </header>
     <article>
         <section>
@@ -61,7 +65,7 @@
                 </div>
             </content>
         </section>
-        <section>
+        <section style="background-color: #20c5f7af;">
             <content>
                 <div>
                     <img src="img/stud_a_pose2_small.png"/>
@@ -72,16 +76,16 @@
                 </div>
             </content>
         </section>
-        <section>
+        <section style="background-color: #ffd000af;">
             <content>
                 <div style="text-align: center;">
                     <h2>Coming Soon...</h2>
-                    <h3>April 1st, 20XX</h3>
+                    <h3>April 1st, 2XXX</h3>
                     <p>...But that's not all!</p>
                 </div>
             </content>
         </section>
-        <section>
+        <section style="background-color: #ffcfdbaf;">
             <content>
                 <div>
                     <h2>OpenTaiko Karting Soundtrack</h2>
@@ -89,13 +93,14 @@
                     <p>Want a closer look into our upcoming project? Look no further than our previous game, OpenTaiko! Starting today, you can drum to the tune of our game's soundtrack!</p>
                     <p>Download <a href="https://opentaiko.github.io/download" target="_blank">OpenTaiko Hub</a> to access this soundtrack!</p>
                 </div>
-                <div>
+                <div style="margin-left: 50px;">
+                    <img src="img/album.png"/>
                 </div>
             </content>
         </section>
     </article>
     <footer>
-        <section style="background-color: transparent;">
+        <section style="background-color: transparent; margin:15px 0">
             <div class="return">
                 <p style="text-align: center;"><a href="https://opentaiko.github.io">Return to Home</a></p>
             </div>
